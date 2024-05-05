@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700;800&display=swap");
+@font-face {
+  font-family: "Clash Display Variable";
+  src: url("/public/ClashDisplay-Variable.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Clash Display Variable";
+  src: url("/public/ClashDisplay-Variable.ttf");
+  font-weight: 700;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply leading-[normal] m-0;
+}
+*,
+::before,
+::after {
+  border-width: 0;
+}
